@@ -16,7 +16,7 @@ function clockLoop() {
   if (time % 6 === 0) {
     clockTimer.innerHTML = (time-timeOffset)/6;
   }
-  console.log("Interval timer: " + time);
+  
 }
 
 setInterval(clockLoop, 31.25)
